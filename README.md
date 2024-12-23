@@ -16,9 +16,13 @@ $ pipenv install langchain
 $ pipenv install langchain-openai
 $ pipenv install langchain-community
 $ pipenv install langchainhub
+$ pipenv install langcha-ollama
 ```
 
 3. Install dotenv
 ```
 $ pipenv install python-dotenv
 ```
+
+4. Install ollama app
+Need to visit their website and follow the steps. (https://ollama.com/)
