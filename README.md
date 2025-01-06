@@ -1,6 +1,6 @@
 # llm-with-python
 
-My personal LLM project using Python
+My personal LLM project using Python, guided by udemy course "Learn LangChain by building FAST a real world generative ai LLM powered application LLM (Python, Latest Version 0.3.0)"by Eden Marco.
 
 ## Pre-requisites
 
