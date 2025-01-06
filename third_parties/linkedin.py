@@ -35,11 +35,3 @@ def scrape_linkedin_profile(linkedin_profile_url: str, mock: bool = False):
             group_dict.pop("profile_pic_url")
 
     return data
-
-
-if __name__ == "__main__":
-    print(
-        scrape_linkedin_profile(
-            linkedin_profile_url="https://www.linkedin.com/in/kaiohenriqueps", mock=True
-        )
-    )
