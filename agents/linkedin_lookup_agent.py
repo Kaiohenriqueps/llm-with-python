@@ -15,7 +15,7 @@ load_dotenv()
 def lookup(name: str) -> str:
     llm = ChatOllama(model="llama3.2")
     template = """given the full name {name_of_person} I want you to get it me a link to their LinkedIn profile page.
-    Your answer should contain only a URL."""
+    Your answer should contain only the URL from LinkedIn."""
     prompt_template = PromptTemplate(
         input_variables=["name_of_person"], template=template
     )
