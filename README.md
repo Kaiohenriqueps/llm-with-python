@@ -29,3 +29,6 @@ Need to visit their website and follow the steps. (https://ollama.com/)
 
 ## Public LinkedIn profile JSON
 The url is `https://gist.githubusercontent.com/Kaiohenriqueps/61ba15f83811669904ce6655ed2b7b31/raw/424b89cd0b83f49827573e606d11391574c01d26/kaio-pedroza.json` and can be accessed using *requests.get()* in python.
+
+## Using ProxyCurl and Tavily
+In the course, we have to use ProxyCurl to capture some linkedin info using APIs and Tavily to search information in the internet, so we need to create a free tier accounts and use the APIs keys to interact with them.
